@@ -68,7 +68,7 @@ const perguntas = [
                 afirmacao: "Você se adapta bem a ambientes inovadores e pode se destacar em áreas criativas, design ou empreendedorismo.",
             }
         ]
-    },
+    }, 
      {
         enunciado: "Você se considera um líder ou um colaborador?",
         alternativas: [
