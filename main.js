@@ -5,8 +5,6 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector("texto-resultado");
 
 
-
-
 const perguntas = [
     {
         enunciado: "Você prefere atividades mais criativas ou analíticas?",
@@ -87,3 +85,13 @@ const perguntas = [
         ]
     },
 ];
+
+let atual = 0; 
+let perguntaAtual;
+
+function mostraPergunta(){
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
+
+mostraPergunta();
